@@ -1,0 +1,28 @@
+{
+  "name": "@puntt/eslint-config",
+  "description": "Linter config for Puntt projects",
+  "version": "0.0.1",
+  "author": "Mike Hall",
+  "bugs": {
+    "url": "https://github.com/punttgg/eslint-config/issues"
+  },
+  "scripts": {
+    "lint": "eslint . --config eslint.config.js"
+  },
+  "homepage": "https://github.com/punttgg/eslint-config",
+  "license": "MIT",
+  "main": "eslintrc.json",
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/punttgg/eslint-config.git"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^6.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
