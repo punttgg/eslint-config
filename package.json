@@ -1,7 +1,7 @@
 {
   "name": "@puntt/eslint-config",
   "description": "Linter config for Puntt projects",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Mike Hall",
   "bugs": {
     "url": "https://github.com/punttgg/eslint-config/issues"
