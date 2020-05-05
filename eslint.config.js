@@ -121,7 +121,7 @@ module.exports = {
         "eol-last": "error",
         "func-names": 0,
         "func-style": 0,
-        "indent": ["error", 4],
+        "indent": 0,
         "max-nested-callbacks": ["error", 5],
         "no-array-constructor": "error",
         "no-continue": 0,
