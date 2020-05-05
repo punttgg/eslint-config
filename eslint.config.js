@@ -17,7 +17,6 @@ module.exports = {
         "no-control-regex": "error",
         "no-debugger": "error",
         "no-dupe-args": "error",
-        "no-dupe-keys": "error",
         "no-duplicate-case": "error",
         "no-empty": "error",
         "no-empty-character-class": "error",
@@ -87,7 +86,6 @@ module.exports = {
         "radix": "error",
         "vars-on-top": "error",
         "yoda": "error",
-        "strict": "error",
         "no-catch-shadow": "error",
         "no-delete-var": "off",
         "no-label-var": "error",
@@ -138,13 +136,7 @@ module.exports = {
         "one-var": "off",
         "padded-blocks": "off",
         "quote-props": "off",
-        "quotes": [
-            "error",
-            "double",
-            {
-                "allowTemplateLiterals": true
-            }
-        ],
+        "quotes": "off",
         "semi-spacing": [
             "error",
             {
