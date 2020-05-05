@@ -1,16 +1,16 @@
 module.exports = {
-    "parserOptions": {
-        "ecmaVersion": 2020
+    parserOptions: {
+        ecmaVersion: 2020,
     },
 
-    "env": {
-        "es6": true,
-        "node": true
+    env: {
+        es6: true,
+        node: true,
     },
 
-    "extends": "prettier",
+    extends: "prettier",
 
-    "rules": {
+    rules: {
         "no-cond-assign": ["error", "always"],
         "no-console": "warn",
         "no-constant-condition": "error",
@@ -39,12 +39,12 @@ module.exports = {
         "valid-typeof": "error",
         "accessor-pairs": "error",
         "block-scoped-var": "error",
-        "complexity": "off",
+        complexity: "off",
         "consistent-return": "off",
-        "curly": ["error", "all"],
+        curly: ["error", "all"],
         "default-case": "error",
         "dot-notation": "error",
-        "eqeqeq": "error",
+        eqeqeq: "error",
         "guard-for-in": "error",
         "no-alert": "error",
         "no-caller": "error",
@@ -83,17 +83,17 @@ module.exports = {
         "no-void": "error",
         "no-warning-comments": "warn",
         "no-with": "error",
-        "radix": "error",
+        radix: "error",
         "vars-on-top": "error",
-        "yoda": "error",
+        yoda: "error",
         "no-catch-shadow": "error",
         "no-delete-var": "off",
         "no-label-var": "error",
         "no-shadow": [
             "error",
             {
-                "allow": ["_"]
-            }
+                allow: ["_"],
+            },
         ],
         "no-shadow-restricted-names": "error",
         "no-undef": "error",
@@ -102,8 +102,8 @@ module.exports = {
         "no-unused-vars": [
             "error",
             {
-                "argsIgnorePattern": "^ignore|_$"
-            }
+                argsIgnorePattern: "^ignore|_$",
+            },
         ],
         "no-use-before-define": ["error", "nofunc"],
         "handle-callback-err": "warn",
@@ -113,13 +113,13 @@ module.exports = {
         "no-process-exit": "off",
         "no-restricted-modules": "off",
         "no-sync": "warn",
-        "camelcase": "error",
+        camelcase: "error",
         "computed-property-spacing": ["error", "never"],
         "consistent-this": ["error", "that"],
         "eol-last": "error",
         "func-names": "off",
         "func-style": "off",
-        "indent": "off",
+        indent: "off",
         "max-nested-callbacks": ["error", 5],
         "no-array-constructor": "error",
         "no-continue": "off",
@@ -136,22 +136,22 @@ module.exports = {
         "one-var": "off",
         "padded-blocks": "off",
         "quote-props": "off",
-        "quotes": "off",
+        quotes: "off",
         "semi-spacing": [
             "error",
             {
-                "before": false,
-                "after": true
-            }
+                before: false,
+                after: true,
+            },
         ],
-        "semi": ["error", "always"],
+        semi: ["error", "always"],
         "sort-vars": "off",
         "keyword-spacing": [
             "error",
             {
-                "before": true,
-                "after": true
-            }
+                before: true,
+                after: true,
+            },
         ],
         "space-before-blocks": ["error", "always"],
         "space-in-parens": ["error", "never"],
@@ -171,6 +171,6 @@ module.exports = {
         "max-params": ["error", 5],
         "max-statements": "off",
         "no-bitwise": "error",
-        "no-plusplus": "error"
-    }
+        "no-plusplus": "error",
+    },
 };
