@@ -188,6 +188,6 @@
         "node/prefer-promises/dns": ["error"],
         "node/prefer-promises/fs": ["error"],
 
-        "no-unpublished-require": "off"
+        "node/no-unpublished-require": "off"
     }
 }
