@@ -29,8 +29,6 @@
         "no-loss-of-precision": "error",
         "no-misleading-character-class": "error",
         "no-obj-calls": "error",
-        "no-promise-executor-return": "error",
-        "no-prototype-builtins": "error",
         "no-regex-spaces": "error",
         "no-setter-return": "error",
         "no-sparse-arrays": "error",
@@ -40,7 +38,6 @@
         "no-unsafe-finally": "error",
         "no-unsafe-negation": "error",
         "no-useless-backreference": "error",
-        "require-atomic-updates": "error",
         "use-isnan": "error",
         "valid-typeof": "error",
 
@@ -74,7 +71,6 @@
         "no-labels": "error",
         "no-lone-blocks": "error",
         "no-loop-func": "error",
-        "no-magic-numbers": "error",
         "no-multi-str": "error",
         "no-new-func": "error",
         "no-new-wrappers": "error",
@@ -113,7 +109,6 @@
         "no-shadow-restricted-names": "error",
         "no-undef": "error",
         "no-undef-init": "error",
-        "no-undefined": "error",
         "no-unused-vars": ["error", {"argsIgnorePattern": "^ignore|_$"}],
         "no-use-before-define": ["error", "nofunc"],
         "no-multi-assign": "error",
@@ -136,7 +131,6 @@
         "no-underscore-dangle": "error",
         "no-unneeded-ternary": "error",
         "prefer-exponentiation-operator": "error",
-        "prefer-object-spread": "error",
         "quotes": [
             "error",
             "double",
@@ -182,7 +176,6 @@
         "node/no-new-require": "error",
         "node/no-path-concat": "error",
         "node/callback-return": "error",
-        "node/exports-style": ["error", "exports"],
         "node/file-extension-in-import": ["error", "always"],
         "node/no-mixed-requires": "error",
         "node/prefer-global/buffer": ["error", "always"],
@@ -192,7 +185,9 @@
         "node/prefer-global/text-encoder": ["error", "always"],
         "node/prefer-global/url-search-params": ["error", "always"],
         "node/prefer-global/url": ["error", "always"],
-        "node/prefer-promises/dns": ["error", "always"],
-        "node/prefer-promises/fs": ["error", "always"]
+        "node/prefer-promises/dns": ["error"],
+        "node/prefer-promises/fs": ["error"],
+
+        "no-unpublished-require": "off"
     }
 }
