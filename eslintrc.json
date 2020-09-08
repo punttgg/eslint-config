@@ -176,7 +176,7 @@
         "node/no-new-require": "error",
         "node/no-path-concat": "error",
         "node/callback-return": "error",
-        "node/file-extension-in-import": ["error", "always"],
+        "node/file-extension-in-import": "off",
         "node/no-mixed-requires": "error",
         "node/prefer-global/buffer": ["error", "always"],
         "node/prefer-global/console": ["error", "always"],
