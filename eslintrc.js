@@ -98,7 +98,7 @@ module.exports = {
         "prefer-promise-reject-errors": "error",
         "prefer-regex-literals": "error",
         radix: "error",
-        "require-await": "error",
+        "require-await": "warn",
         "require-unicode-regexp": "error",
         "vars-on-top": "error",
         yoda: "error",
