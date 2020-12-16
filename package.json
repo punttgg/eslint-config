@@ -8,16 +8,16 @@
     },
     "homepage": "https://github.com/punttgg/eslint-config",
     "license": "MIT",
-    "main": "eslintrc.json",
+    "main": "eslintrc.js",
     "repository": {
         "type": "git",
         "url": "git://github.com/punttgg/eslint-config.git"
     },
     "dependencies": {
-        "eslint-config-prettier": "^6.10.1",
+        "eslint-config-prettier": "^7.0.0",
         "eslint-plugin-node": "^11.1.0"
     },
     "devDependencies": {
-        "prettier": "^2.0.5"
+        "prettier": "^2.2.1"
     }
 }

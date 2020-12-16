@@ -1,11 +1,11 @@
-{
-    "parserOptions": {
-        "ecmaVersion": 2020
+module.exports = {
+    parserOptions: {
+        ecmaVersion: 2020,
     },
 
-    "extends": ["prettier", "plugin:node/recommended"],
+    extends: ["prettier", "plugin:node/recommended"],
 
-    "rules": {
+    rules: {
         "for-direction": "error",
         "getter-return": "error",
         "no-async-promise-executor": "error",
@@ -49,7 +49,7 @@
         "default-case-last": "error",
         "default-param-last": "error",
         "dot-notation": "error",
-        "eqeqeq": "error",
+        eqeqeq: "error",
         "grouped-accessor-pairs": "error",
         "guard-for-in": "error",
         "no-alert": "error",
@@ -97,24 +97,24 @@
         "no-with": "error",
         "prefer-promise-reject-errors": "error",
         "prefer-regex-literals": "error",
-        "radix": "error",
+        radix: "error",
         "require-await": "error",
         "require-unicode-regexp": "error",
         "vars-on-top": "error",
-        "yoda": "error",
+        yoda: "error",
 
         "no-delete-var": "off",
         "no-label-var": "off",
-        "no-shadow": ["error", {"allow": ["_"]}],
+        "no-shadow": ["error", {allow: ["_"]}],
         "no-shadow-restricted-names": "error",
         "no-undef": "error",
         "no-undef-init": "error",
-        "no-unused-vars": ["error", {"argsIgnorePattern": "^ignore|_$"}],
+        "no-unused-vars": ["error", {argsIgnorePattern: "^ignore|_$"}],
         "no-use-before-define": ["error", "nofunc"],
         "no-multi-assign": "error",
 
-        "camelcase": "error",
-        "curly": ["error", "all"],
+        camelcase: "error",
+        curly: ["error", "all"],
         "lines-between-class-members": "error",
         "max-depth": ["error", 5],
         "max-len": ["error", 120],
@@ -131,16 +131,16 @@
         "no-underscore-dangle": "error",
         "no-unneeded-ternary": "error",
         "prefer-exponentiation-operator": "error",
-        "quotes": [
+        quotes: [
             "error",
             "double",
-            {"avoidEscape": true, "allowTemplateLiterals": false}
+            {avoidEscape: true, allowTemplateLiterals: false},
         ],
         "spaced-comment": ["error", "always"],
 
         "constructor-super": "error",
         "no-class-assign": "error",
-        "no-confusing-arrow": ["error", {"allowParens": false}],
+        "no-confusing-arrow": ["error", {allowParens: false}],
         "no-const-assign": "error",
         "no-dupe-class-members": "error",
         "no-duplicate-imports": "error",
@@ -189,6 +189,6 @@
         "node/prefer-promises/fs": ["error"],
 
         "node/no-unpublished-require": "off",
-        "node/no-unpublished-import": "off"
-    }
-}
+        "node/no-unpublished-import": "off",
+    },
+};
